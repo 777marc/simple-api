@@ -10,4 +10,9 @@ public class GreetingController {
     public String getGreeting() {
         return "Heyo Marc!";
     }
+
+    @RequestMapping("/heyo")
+    public String heyo() {
+        return "You're the best!";
+    }
 }
